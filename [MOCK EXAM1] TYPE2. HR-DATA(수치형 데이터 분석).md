@@ -14,8 +14,8 @@ y_train = pd.read_csv("../input/hr-data/y_train.csv")
 print(X_train.info())
 
 # 수치형 데이터만 선택하기
-train = X_train.select_types(exclude = 'object')
-test = X_test.select_types(excluse = 'object')
+train = X_train.select_dtypes(exclude = 'object')
+test = X_test.select_dtypes(excluse = 'object')
 
 # 훈련되지 않아도 될 필드 삭제
 train = train.drop('enrollee_id',axis=1)
