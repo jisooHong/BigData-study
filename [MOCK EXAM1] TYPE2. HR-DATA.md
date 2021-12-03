@@ -1,4 +1,4 @@
-[MOCK EXAM1] TYPE2. HR-DATA 최종
+## [MOCK EXAM1] TYPE2. HR-DATA 최종
 - 수치형 데이터 뿐만 아니라 범주형 데이터도 훈련시켜보자.
 - 하이퍼 파라미터 튜닝으로 예측도를 향상시켜보자
 
