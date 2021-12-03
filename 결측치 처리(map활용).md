@@ -34,7 +34,7 @@ s,b,d,g = df.groupby('city')['f1'].median()
 
 # 나머지 컬럼의 결측치를 지역별 중앙값으로 채우기
 d = {'서울':s, '부산':b, '대구':d, '경기':g}
-df['f1'].fillna(df['city'].map(d))
+df['f1'] = df['f1'].fillna(df['city'].map(d))
 
 # f1의 평균값 구하기
 print(df['f1'].mean())
